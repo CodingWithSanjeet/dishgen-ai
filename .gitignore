@@ -1,0 +1,122 @@
+# RecipeAI - Comprehensive GitIgnore
+# ====================================
+
+# Dependencies
+# ------------
+node_modules/
+*/node_modules/
+npm-debug.log*
+package-lock.json
+
+# Environment Variables
+# --------------------
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.development
+.env.production
+*.env
+
+# Build Outputs
+# -------------
+# Client (Vite/React)
+client/dist/
+client/build/
+client/dist-ssr/
+
+# Server (Node.js/TypeScript)
+server/dist/
+server/build/
+server/lib/
+*.tsbuildinfo
+
+# Runtime & Logs
+# --------------
+logs/
+*.log
+*.log.*
+.npm
+.eslintcache
+.cache/
+
+# Coverage & Testing
+# -----------------
+coverage/
+*.lcov
+.nyc_output/
+.coverage/
+jest-coverage/
+
+# IDE & Editor Files
+# -----------------
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Generated Files
+# -----------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Temporary Files
+# --------------
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+
+# Database
+# --------
+*.sqlite
+*.sqlite3
+*.db
+
+# Uploads & User Content
+# ---------------------
+uploads/
+public/uploads/
+
+# Production Deployment
+# --------------------
+.vercel
+.netlify
+.railway
+
+# Docker
+# ------
+.dockerignore
+
+# Miscellaneous
+# ------------
+*.tgz
+*.tar.gz
+.yarn-integrity
+.yarn-error.log
+
+# RecipeAI Specific
+# ----------------
+# OpenAI API responses cache
+ai-cache/
+recipe-cache/
+
+# User uploaded images
+user-uploads/
+
+# Generated recipe files
+generated-recipes/
