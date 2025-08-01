@@ -28,6 +28,7 @@ import {
   ChefHat,
   Clock,
   Globe,
+  Loader2,
   Sparkles,
   Target,
   Users,
@@ -235,12 +236,22 @@ const RecipeForm: React.FC<RecipeFormProps> = ({ onSubmit, isLoading }) => {
           {/* Generate Button */}
           <Button
             onClick={handleGenerateRecipe}
+            disabled={isLoading}
             variant="recipe"
             size="lg"
-            className="w-full mt-8 bg-gradient-primary hover:opacity-90 transition-smooth shadow-glow"
+            className="w-full mt-8 bg-gradient-primary hover:opacity-90 transition-smooth shadow-glow disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:opacity-50"
           >
-            <Sparkles className="w-5 h-5 mr-2" />
-            Generate My Recipe
+            {isLoading ? (
+              <>
+                <Loader2 className="w-5 h-5 mr-2 animate-spin" />
+                Generating Recipe...
+              </>
+            ) : (
+              <>
+                <Sparkles className="w-5 h-5 mr-2" />
+                Generate My Recipe
+              </>
+            )}
           </Button>
         </CardContent>
     </Card>
