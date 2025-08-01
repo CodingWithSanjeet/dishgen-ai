@@ -1,6 +1,6 @@
-# 🔧 RecipeAI Backend
+# 🔧 DishGen AI Backend
 
-This is the **Node.js + Express + TypeScript** backend API for RecipeAI - Your Personal AI Chef.
+This is the **Node.js + Express + TypeScript** backend API for DishGen AI - Your Personal AI Chef.
 
 ## 🏗️ Backend Architecture
 
@@ -375,4 +375,4 @@ app.use('/api/', limiter);
 
 ---
 
-*Part of the RecipeAI project - Where AI Meets Appetite ✨*
+*Part of the DishGen AI project - Where AI Meets Appetite ✨*

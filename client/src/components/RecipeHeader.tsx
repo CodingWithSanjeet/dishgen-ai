@@ -6,12 +6,12 @@ const RecipeHeader = () => {
       <div className="flex items-center justify-center mb-4">
         <img 
           src={recipeLogoSrc} 
-          alt="RecipeAI" 
+          alt="DishGen AI" 
           className="w-14 h-14 mr-3"
         />
         <div className="flex flex-col">
           <h1 className="text-4xl font-bold text-primary">
-            RecipeAI 
+            DishGen AI 
           </h1>
           <p className="text-muted-foreground text-lg">
             Your Personal AI Chef ✨

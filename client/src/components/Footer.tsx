@@ -44,7 +44,7 @@ const Footer = () => {
                 <ChefHat className="w-5 h-5 text-primary" />
               </div>
               <div>
-                <h3 className="text-base font-bold text-foreground">RecipeAI</h3>
+                <h3 className="text-base font-bold text-foreground">DishGen AI</h3>
                 <p className="text-muted-foreground text-xs">Your Personal AI Chef</p>
               </div>
             </div>

@@ -1,19 +1,29 @@
-# 🍳 RecipeAI
+# 🍳 DishGen AI
 
 **Where AI Meets Appetite** ✨
 
 **Your Personal AI Chef** - Transform your cooking experience with intelligent recipe generation
 
+## 🌐 **Live Demo**
+
+🚀 **[Try DishGen AI Live](https://dishgen-ai.netlify.app/)** - Experience AI-powered recipe generation in action!
+
+*⚡ Real-time streaming • 🍽️ Personalized recipes • 🌿 Dietary preferences supported*
+
+---
+
 [![React](https://img.shields.io/badge/React-18.0+-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-18.0+-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
 [![OpenAI](https://img.shields.io/badge/OpenAI-API-412991?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com/)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge&logo=netlify&logoColor=white)](https://dishgen-ai.netlify.app/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6e614702-a3e5-4814-bf1e-15f4440390b4/deploy-status)](https://app.netlify.com/projects/dishgen-ai/deploys)
 
 ---
 
 ## 🌟 Overview
 
-RecipeAI is an intelligent recipe generation platform that leverages the power of artificial intelligence to create personalized recipes based on your preferences, dietary restrictions, available ingredients, and cuisine choices. Whether you're a beginner cook or a seasoned chef, RecipeAI adapts to your needs and creates recipes that are perfect for you.
+DishGen AI is an intelligent recipe generation platform that leverages the power of artificial intelligence to create personalized recipes based on your preferences, dietary restrictions, available ingredients, and cuisine choices. Whether you're a beginner cook or a seasoned chef, DishGen AI adapts to your needs and creates recipes that are perfect for you.
 
 ### ✨ Key Features
 
@@ -46,6 +56,16 @@ RecipeAI is an intelligent recipe generation platform that leverages the power o
 
 ---
 
+## 🎯 **Quick Demo**
+
+**Want to try it out immediately?** 
+
+👉 **[Open DishGen AI Live Demo](https://dishgen-ai.netlify.app/)** 
+
+No installation required! Just visit the link and start generating recipes instantly.
+
+---
+
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -58,8 +78,8 @@ RecipeAI is an intelligent recipe generation platform that leverages the power o
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/recipeai.git
-   cd recipeai
+   git clone https://github.com/yourusername/dishgen-ai.git
+   cd dishgen-ai
    ```
 
 2. **Setup Backend**
@@ -127,7 +147,7 @@ RecipeAI is an intelligent recipe generation platform that leverages the power o
 ## 🏗️ Project Structure
 
 ```
-recipeai/
+dishgen-ai/
 ├── client/                 # Frontend React application
 │   ├── src/
 │   │   ├── components/     # Reusable UI components
@@ -181,6 +201,9 @@ Generate a new recipe based on user preferences.
 
 ## 🎨 Features & Screenshots
 
+### 🌐 **Live Demo Available**
+Experience DishGen AI in action: **[Demo Link](https://recipe-ai-xr29.onrender.com)**
+
 ### Real-time Recipe Generation
 Watch as your recipe comes to life with live streaming AI generation, complete with typing indicators and smooth animations.
 
@@ -224,10 +247,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **CodingWithSanjeet**
 
-- 🌐 Website: [Your Website](https://yourwebsite.com)
-- 📧 Email: your.email@example.com
-- 💼 LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- 🐙 GitHub: [Your GitHub](https://github.com/yourusername)
+- 🌐 Website: [CodingWithSanjeet](https://sanjeet-kumar-nitt.netlify.app/)
+- 📧 Email: sanjeet.kumar.nitt@gmail.com
+- 💼 LinkedIn: [Sanjeet Kumar](https://www.linkedin.com/in/sanjeet-kumar-nitt/)
+- 🐙 GitHub: [CodingWithSanjeet](https://github.com/CodingWithSanjeet)
 
 ---
 

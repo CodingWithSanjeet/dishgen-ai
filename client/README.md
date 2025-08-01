@@ -1,6 +1,6 @@
-# 🎨 RecipeAI Frontend
+# 🎨 DishGen AI Frontend
 
-This is the **React + TypeScript + Vite** frontend for RecipeAI - Your Personal AI Chef.
+This is the **React + TypeScript + Vite** frontend for DishGen AI - Your Personal AI Chef.
 
 ## 🏗️ Frontend Architecture
 
@@ -206,4 +206,4 @@ The build output will be in the `dist/` directory, ready for deployment to any s
 
 ---
 
-*Part of the RecipeAI project - Where AI Meets Appetite ✨*
+*Part of the DishGen AI project - Where AI Meets Appetite ✨*
